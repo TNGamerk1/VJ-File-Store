@@ -35,18 +35,18 @@ API_HASH = environ.get("API_HASH", "")
 ADMINS = int(environ.get("ADMINS", ""))
 
 # Database Information
-CLONE_DB_URI = environ.get("CLONE_DB_URI", "")
-CDB_NAME = environ.get("CDB_NAME", "clonevjbotz")
-DB_URI = environ.get("DB_URI", "")
-DB_NAME = environ.get("DB_NAME", "vjbotz")
+CLONE_DB_URI = environ.get("CLONE_DB_URI", "mongodb+srv://AddXvol:631QMqhD7HJVUitR@addxvol.sz69u.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+CDB_NAME = environ.get("CDB_NAME", "AddXvol")
+DB_URI = environ.get("DB_URI", "mongodb+srv://RoshanGamer:public@cluster0.kyoy7.mongodb.net/Public1?retryWrites=true&w=majority")
+DB_NAME = environ.get("DB_NAME", "RoshanGamer")
 
 # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
 # Ask Doubt on telegram @KingVJ01
 
 # Bot Information
-BOT_TOKEN = environ.get("BOT_TOKEN", "")
-BOT_USERNAME = environ.get("BOT_USERNAME", "") # your bot username without @
+BOT_TOKEN = environ.get("BOT_TOKEN", "6917722736:AAGb2-wWtBZWAK7SNiDxXT2yFrYD3t-_FPQ")
+BOT_USERNAME = environ.get("BOT_USERNAME", "stone_bit_storage_robot") # your bot username without @
 PICS = (environ.get('PICS', 'https://graph.org/file/82ef767ffebe3a948e476.jpg https://graph.org/file/82ef767ffebe3a948e476.jpg')).split() # Bot Start Picture
 
 # Auto Delete Information
